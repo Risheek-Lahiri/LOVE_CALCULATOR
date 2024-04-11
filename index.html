@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Love Calculator</h1>
+  </header>
+
+  <main>
+    <section class="calculator">
+      <h2>Find out your love compatibility</h2>
+      <form id="love-form">
+        <input type="text" id="your-name" placeholder="Your Name" required>
+        <input type="text" id="partner-name" placeholder="Partner's Name" required>
+        <button type="button" onclick="calculateLove()">Calculate</button>
+      </form>
+      <div id="result" class="result-container">
+        <div id="result-text"></div>
+        <img id="heart-img" src="h2.png" alt="Heart">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Love Calculator by Risheek Lahiri</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

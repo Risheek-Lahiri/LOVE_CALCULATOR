@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  header {
+    background-color: #e33f3f61;
+    text-align: center;
+    padding: 0px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .calculator {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #e33f3f61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  
+  #result {
+    margin-top: 200px;
+  }
+  
+  input[type="text"], button {
+    margin-bottom: 10px;
+    padding: 5px 5px;
+
+
+
+  }
+  
+  button {
+    background-color: white;
+    color: #ff4d4d;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    background-color: #ff9999;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  footer .social-media a {
+    margin-right: 10px;
+  }
+  
+  footer .social-media img {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border-radius: 30px;
+  }
+  
+  /* Existing CSS styles... */
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+    color: #500b0b; /* Change color to red */
+    
+  }
+  
+  /* Additional styling for heart image */
+  #heart-img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* CSS animation for heart image */
+  #heart-img {
+    animation: heartbeat 1s infinite alternate;
+  }
+  
+  @keyframes heartbeat {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1.5);
+    }
+    
+  }
+  
+  /* Existing CSS styles... */
+
+/* Adjust layout for mobile view */
+@media screen and (max-width: 600px) {
+  input[type="text"] {
+    width: 60%;
+  }
+  
+  button {
+    width: 70%;
+  }
+}
